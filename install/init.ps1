@@ -1,4 +1,4 @@
-$path = "C:\EasyGitClone"
+$path = "C:\FastGitClone"
 
 #Creates Directory if it doenst exist
 If(!(test-path $path)){
@@ -10,4 +10,3 @@ $dst = $path
 
 Get-ChildItem $src | Copy-Item -Destination $dst -Force
 
-#Writing to registry
